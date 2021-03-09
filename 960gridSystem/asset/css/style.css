@@ -1,0 +1,146 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  color: #fec1ee;
+}
+
+.menu {
+  /* border-style: solid; */
+  margin-top: -4px;
+  height: 56px;
+  text-align: center;
+  padding-top: 16px;
+  background-color: #655ab8;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.service {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.genericMarginTop {
+  margin-top: 20px;
+}
+
+.genericMarginLeft {
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #655ab8;
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.containerBG {
+  background-color: #4f4a75;
+  box-shadow: 0px 0px 0px 2px #fec1ee;
+}
+
+.activeTab {
+  border-bottom: 4px solid #fec1ee;
+}
+.inactiveTab {
+  background-color: #4f4a75;
+  border-bottom: 4px solid #4f4a75;
+}
+
+body {
+  background-image: url("../photos/BG@2x.png");
+  background-color: #4f4a75;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.playerBorder {
+  box-shadow: 0px 0px 0px 2px #fec1ee;
+}
+
+.imgCircular {
+  border-radius: 50%;
+}
+
+.genericPadding {
+  padding: 10px;
+  text-align: justify;
+}
+
+.genericPaddingExtra {
+  padding: 30px;
+  text-align: justify;
+}
+
+.genericCenterStuff {
+  text-align: center;
+}
+
+input[type="submit"] {
+  border: 0;
+  border-radius: 0px;
+}
+
+.linkButton {
+  background-color: #655ab8;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.linkButton:hover {
+  box-shadow: 0px 0px 0px 2px #fec1ee;
+}
+
+.linkButtonAlt {
+  background-color: transparent;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.linkButtonAlt:hover {
+  box-shadow: 0px 0px 0px 2px #fec1ee;
+}
+
+.inputText {
+  width: 100%;
+  background-color: #4f4a75;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #fec1ee;
+  box-shadow: none;
+  resize: none;
+}
+.inputText:focus {
+  background-color: #655ab8;
+}
+.inputText::placeholder {
+  color: #fec1ee;
+}
+
+/* Default Form Outline Reset */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
