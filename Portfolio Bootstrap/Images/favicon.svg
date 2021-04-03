@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="clip-favicon">
+      <rect width="128" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="favicon" clip-path="url(#clip-favicon)">
+    <g id="Logo">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="64" cy="64" r="64" fill="#343a40"/>
+      <g id="Logo-2" data-name="Logo" transform="translate(-12.654 -8.578)">
+        <path id="Path_7" data-name="Path 7" d="M18.9,93.661l26.83-53.618H66.367L57.26,77.689l9.107-37.646H87.006V55.388L103.46,68.121H86.95l.056,25.54" transform="translate(19.682 5.726)" fill="none" stroke="#ff6333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Path_8" data-name="Path 8" d="M10.59,0,0,20.365,10.59,40.73" transform="matrix(0.966, 0.259, -0.259, 0.966, 38.708, 57.305)" fill="none" stroke="#ff6333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Logo-3" data-name="Logo" transform="translate(-10.654 -8.579)">
+        <path id="Path_7-2" data-name="Path 7" d="M18.9,93.661l26.83-53.618H66.367L57.26,77.689l9.107-37.646H87.006V55.388L103.46,68.121H86.95l.056,25.54" transform="translate(19.682 5.726)" fill="none" stroke="#ffc107" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Path_8-2" data-name="Path 8" d="M10.59,0,0,20.365,10.59,40.73" transform="matrix(0.966, 0.259, -0.259, 0.966, 38.708, 57.305)" fill="none" stroke="#ffc107" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

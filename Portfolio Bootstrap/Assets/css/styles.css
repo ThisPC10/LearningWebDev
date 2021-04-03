@@ -1,0 +1,99 @@
+
+/* Defaults */
+html {
+  scroll-behavior: smooth;
+  background: #343A40;
+}
+
+body {
+  margin:0; /*gets rid of white space around body*/
+  height: max-content; /*you can let your content define it's height*/
+  position: relative; /*REQUIRED Sets up positioning for your footer*/
+  background: #343A40;
+}
+
+.bg-customYellow {
+  background: #cc9b08 !important;
+}
+.text-customYellow {
+  color: #cc9b08 !important;
+}
+
+/* Full screen carousel */
+.carousel-item {
+  height: 95vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+/* FAB */
+.fab {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  
+  text-align: center;
+  
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+
+  padding: 13px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.1s ease-in-out;
+  z-index: 5;
+}
+
+.fab:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transform: scale(1.05);
+}
+/* FAB End */
+
+/* Reusable Raise Animation */
+.raiseAnim{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+  transition: all 0.1s ease-in-out !important;
+}
+.raiseAnim:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+  transform: scale(1.05) !important;
+}
+.raiseAnimNoShadow{
+  transition: all 0.1s ease-in-out !important;
+}
+.raiseAnimNoShadow:hover {
+  transform: scale(1.05) !important;
+}
+/* Reusable Raise Animation End */
+
+/* Footer */
+footer {
+  height: 66px;
+  padding: 20px;
+  width: 100%;
+  position: relative; 
+  bottom: 0;          
+  left: 0;            
+}
+/* Footer End */
+
+.circle {
+    animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnim {
+    from {
+        transform: translateY(0px);
+        z-index: 10;
+    }
+    to {
+        transform: translateY(10px);
+        z-index: 10;
+    }
+}
